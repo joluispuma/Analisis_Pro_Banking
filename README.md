@@ -30,6 +30,8 @@ git clone (https://github.com/joluispuma/Analisis_Pro_Banking.git)
 
 ## Crear entorno virtual
 python -m venv venv
+
+## Activar entorno virtual
 source venv/bin/activate  
 
 ## Instalar dependencias
