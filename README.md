@@ -1,58 +1,80 @@
-# Título del proyecto:
+# Fidelización Inteligente: Predicción de Comportamiento y Satisfacción de Clientes Bancarios
 
-“Fidelización Inteligente: Predicción de Comportamiento y Satisfacción de Clientes Bancarios mediante Ciencia de Datos para la Optimización del Servicio Financiero”
+Este proyecto combina análisis estadístico, visualización de datos y machine learning para predecir la fuga de clientes en el sector financiero. A través de un dashboard interactivo en Streamlit, permite explorar dinámicamente el comportamiento y satisfacción de los clientes, apoyando estrategias de fidelización inteligente.
 
-# Empezando:
+---
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su equipo local para fines de desarrollo y pruebas y una pequeña guía acerca de cómo implementar el proyecto en un sistema en vivo.
+## 🚀 Funcionalidades
 
-# Prerrequisitos:
+- Filtros interactivos por región, género, productos, quejas, entre otros.
+- Visualización de indicadores clave: edad, balance, productos, satisfacción.
+- Entrenamiento dinámico de modelo predictivo Random Forest.
+- Validación cruzada, matriz de confusión, curva ROC y calibración.
+- Análisis estadístico con recomendaciones narrativas automáticas.
+- Top 10 clientes con mayor probabilidad de fuga bancaria.
 
-Necesita tener instalado en su dispositivo local Git y Visual Studio Code. Además
-tener descargado el Dataset Bank-Customer-Attrition-Insights-Data.csv.
+---
 
-### Software adicional requerido: 
-python 3.11.3.
+## 🧰 Prerrequisitos
 
-### Librerias de Python necesarias para la correcta ejecución del proyecto:
-Pandas,
-Numpy,
-MatplotLib.pyplot,
-Seaborn,
-sklearn.cluster,
-streamlit.
-El archivo .ipynb puede ser visualizado en Google Colab.
+- Python 3.11.3
+- Git
+- Visual Studio Code (opcional)
+- Dataset original (`Bank-Customer-Attrition-Insights-Data.csv`) si se desea trabajar con datos reales.
 
-# Creación del ambiente virtual para visualizar el dashboard:
+---
 
-## Clonar el repositorio:
-git clone (https://github.com/joluispuma/Analisis_Pro_Banking.git)
+## 🧪 Instalación y Ejecución
 
-## Crear entorno virtual
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/joluispuma/Analisis_Pro_Banking.git
+cd Analisis_Pro_Banking
+```
+
+2. Crea un entorno virtual:
+
+```bash
 python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
 
-## Activar entorno virtual
-source venv/bin/activate  
+3. Instala las dependencias necesarias:
 
-## Instalar dependencias
+```bash
 pip install -r requirements.txt
+```
 
-## Ejecutar la aplicación
-python app.py
+4. Ejecuta la aplicación en tu navegador:
 
+```bash
+streamlit run dashboard_clientes.py
+```
 
-# Construido con:
+---
 
-Python 3.11.3
+## 🧱 Construido con
 
+- Python 3.11.3
+- Streamlit
+- pandas, numpy, seaborn, matplotlib
+- scikit-learn
 
-# Autores:
+---
 
-Allan Dario Echavarria,
-Andres Felipe Restrepo,
-Jose Luis Rodriguez,
-Luz Estella Cardona.
+## 👥 Autores
 
-# Expresiones de gratitud:
+Proyecto académico desarrollado por el equipo **Controller Team** dentro del programa Talento Tech:
 
-Un agradecimiento a todos aquellos cuyo código fue utilizado.
+- Allan Dario Echavarría  
+- Andrés Felipe Restrepo  
+- José Luis Rodríguez  
+- Luz Estella Cardona  
+
+---
+
+## 🙏 Agradecimientos
+
+Gracias a toda la comunidad de ciencia de datos y código abierto por su conocimiento compartido. Este proyecto se inspira en buenas prácticas y soluciones del ecosistema de machine learning y visual analytics.
+
