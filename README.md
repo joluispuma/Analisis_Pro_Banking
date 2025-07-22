@@ -26,7 +26,7 @@ El archivo .ipynb puede ser visualizado en Google Colab.
 # Creación del ambiente virtual para visualizar el dashboard:
 
 ## Clonar el repositorio:
-git clone [https://github.com/empresa/software.git](https://github.com/joluispuma/Analisis_Pro_Banking.git)
+git clone (https://github.com/joluispuma/Analisis_Pro_Banking.git)
 
 ## Crear entorno virtual
 python -m venv venv
