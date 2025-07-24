@@ -49,7 +49,7 @@ pip install -r requirements.txt
 4. Ejecuta la aplicación en tu navegador:
 
 ```bash
-streamlit run dashboard_clientes.py
+streamlit run dashboard_clientes_bancarios.py
 ```
 
 ---
